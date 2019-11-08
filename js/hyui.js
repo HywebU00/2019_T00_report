@@ -238,7 +238,7 @@ $(function() {
             menuH = Math.floor(_menu.outerHeight(true));
             $('.header').addClass('fixed');
             $('.header').css('margin-top', menuH - hh + 48);
-            $('.main').css('margin-top', hh + 140);
+            // $('.main').css('margin-top', 0);
         } else {
             $('.header').removeClass('fixed');
             $('.header').css('margin-top', 0);
