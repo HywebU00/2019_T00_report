@@ -504,24 +504,24 @@ $(function() {
     /*-----------------------------------*/
     ///////////////置頂go to top////////////
     /*-----------------------------------*/
-    $(window).bind('scroll', function() {
-        if ($(this).scrollTop() > 200) {
-            $('.scrollToTop').fadeIn();
-        } else {
-            $('.scrollToTop').fadeOut();
-        }
-    });
+    // $(window).bind('scroll', function() {
+    //     if ($(this).scrollTop() > 200) {
+    //         $('.scrollToTop').fadeIn();
+    //     } else {
+    //         $('.scrollToTop').fadeOut();
+    //     }
+    // });
     /*-----------------------------------*/
     /////click event to scroll to top//////
     /*-----------------------------------*/
-    $('.scrollToTop').click(function(e) {
-        $('html, body').animate({ scrollTop: 0 }, 800, 'easeOutExpo');
-        e.preventDefault();
-    });
-    $('.scrollToTop').keydown(function(e) {
-        _body.find('a:first').focus();
-        e.preventDefault();
-    });
+    // $('.scrollToTop').click(function(e) {
+    //     $('html, body').animate({ scrollTop: 0 }, 800, 'easeOutExpo');
+    //     e.preventDefault();
+    // });
+    // $('.scrollToTop').keydown(function(e) {
+    //     _body.find('a:first').focus();
+    //     e.preventDefault();
+    // });
     /*--------------------------------------------------------*/
     /////設定img 在IE9+ SAFARI FIREFOX CHROME 可以object-fit/////
     /*--------------------------------------------------------*/
