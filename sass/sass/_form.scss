@@ -240,8 +240,13 @@ select {
 //---------------------------------------------reset--------//
 input[type="reset"] {
     @extend %btn;
-    @include btn_setting(darken($color-gray, 20), #FFF);
+    @include btn_setting(lighten($color-gray, 10), #222);
     text-shadow: none;
+
+    &:hover,
+    &:focus {
+        background: $primaryColor;
+    }
 }
 //---------------------------------------------checkbox & radio--------//
 input[type="checkbox"],
