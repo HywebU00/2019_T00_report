@@ -31,7 +31,7 @@
 
                 transition: background 200ms ease-in;
 
-                &:hover, &focus{
+                &:hover, &:focus{
                     color: #fff !important;
                     background: darken($primaryColor, 5);
                 }

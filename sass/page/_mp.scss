@@ -121,25 +121,28 @@
             list-style: none;
             
             li{
-                padding: .45em 0;
                 overflow:hidden;
                 white-space: nowrap;
                 text-overflow: ellipsis;
                 border-radius: 3px;
 
                 background: rgba(0,0,0,0);
-                transition: background 300ms ease-in, padding 300ms ease-in;
+                transition: .3s ease-in;
                 a{
+                    display: block;
                     color: #fff;
+                    padding: .45em 0;
+                    overflow:hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    transition: .3s ease-in;
                     span.date{
                         padding-right: 1em;
                     }
-                }
-
-                &:hover, &:focus{
-                    background: rgba(0,0,0,.5);
-                    padding: .45em .8em;
-                    a{}
+                    &:hover, &:focus{
+                        padding: .45em .8em;
+                        background: rgba(0,0,0,.5);
+                    }
                 }
             }
         }
