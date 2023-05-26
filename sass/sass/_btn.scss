@@ -92,7 +92,7 @@ $btn-radius:.4em;
     @include btn_setting($color-purple, #FFF);
 }
 
-.btn-more{
+a.btn-more{
     color: #fff;
     background: rgba(0, 0, 0, 0);
     padding: .5em 0;
@@ -125,7 +125,8 @@ $btn-radius:.4em;
         margin-left: .5em;
     }
 
-    &:hover, &:focus{
+    &:hover,
+    &:focus{
         color: #fff;
         background: rgba(0, 0, 0, 1);
         padding: .5em 1em;
